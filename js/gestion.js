@@ -1,5 +1,4 @@
 let diasSemana = ['Lunes 😃','Martes 😄','Miércoles😁','Jueves 😆','Viernes 🥳','Sábado 🤪','Domingo😴'];
-
 let today = new Date();
 let opciones = {weekday: 'long'};
 let diaActual = today.toLocaleDateString('es-ES', opciones);
